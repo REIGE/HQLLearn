@@ -9,14 +9,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-
         <!-- 添加Hibernate依赖 -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>3.6.10.Final</version>
         </dependency>
-
         <!-- mysql数据库的驱动包 -->
         <dependency>
             <groupId>mysql</groupId>
@@ -39,9 +37,8 @@
             <artifactId>javassist</artifactId>
             <version>3.12.0.GA</version>
         </dependency>
-
     </dependencies>
-
+<!--在pom.xml中显式地告诉Maven把什么资源文件复制到target/classes文件夹下。 -->
     <build>
         <resources>
             <resource>
